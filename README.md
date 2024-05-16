@@ -4,21 +4,12 @@
 
 > AWS S3, CloudFront, Route53 배포 / Github Actions CICD 구축
 
+<br/>
+
+ <span>현재 해당사이트는 운영중이지 않습니다.</a>
+ 
 - [🌐 구매자 페이지 (id: testuser / password: aaa1111!)](https://adearth.shop)
 - [🌐 어드민 페이지 (id: jigushop / password: aaa1111!)](https://adearth-admin.shop)
-
-## 실행 방법
-
-```
-git clone https://github.com/ad-earth/admin-v2.0.git
-
-npm install
-npm start
-```
-
-## 서비스 개요
-
-> 2023/02/28 ~ **v2.0 리팩토링 시작**
 
 #### 프로젝트 주제
 
