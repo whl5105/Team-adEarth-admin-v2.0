@@ -29,8 +29,9 @@ npm start
 - 기존 키워드 클릭 광고주 페이지의 문제점들을 개선해 광고 입찰에 꼭 필요한 기능들만 선별하여 제공함으로써 사용자의 경험을 개선
 - 편리하고 간편한 서비스를 광고주들에게 제공함으로써 신규 광고주 유입 효과 기대
 
-## v2.0.0 주요 개선 사항
+<br/>
 
+## 페이지 주요 기능
 #### 기능적 개선
 - 에러 및 알림 메시지 toast UI 공통 처리하여 일관성 유지
 - 현재 선택된 필터를 UI에 표시하여 유저 편의성 향상
@@ -66,19 +67,126 @@ npm start
 |<img src='https://user-images.githubusercontent.com/101298873/232457224-4e8357ee-4ad0-472e-a035-53cce45d60e3.gif' width="450">|<img src='https://user-images.githubusercontent.com/101298873/232448560-90c37c67-a83d-461c-850d-ac668202bf1c.gif' width="450">|
 |▪︎ 상품별  최대 20개 키워드 데이터 제공 <br/> ▪︎ 키워드 단일 & 전체 삭제 <br/> ▪︎ 키워드 광고등록, 키워드 광고수정 |▪︎ 기간, 상품 다중 필터링 <br/> ▪︎ 최대 3개월의 키워드별 클릭 수 & 매출 전환 수 area chart 제공 <br/> ▪︎ 단일 상품에 대한 키워드별 매출 데이터 테이블 제공| 
 
+<br/>
+  
+## 기술 스택
+<table>
+    <thead>
+        <tr>
+          <td align="center"><b>분류</b></td>
+          <td align="center"><b>스택</br></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td align="center"><b>FrontEnd</b></td>
+            <td>
+                <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white&color=5C5C5C&labelColor=61DAFB"/>
+                <img src="https://img.shields.io/badge/TypeScript-4.9.5-3178C6?logo=typescript&logoColor=white&color=5C5C5C&labelColor=3178C6"/>	
+                <img src="https://img.shields.io/badge/React Query-3.39.3-FF4154?logo=ReactQuery&logoColor=white&color=5C5C5C&labelColor=FF4154"/>	
+                <img src="https://img.shields.io/badge/recoil-0.7.7-3578E5?logo=recoil&logoColor=white&color=5C5C5C&labelColor=3578E5"/>	
+                <img src="https://img.shields.io/badge/sass-1.60.0-CC6699?logo=sass&logoColor=white&color=5C5C5C&labelColor=CC6699"/>	
+            </td>
+        </tr>
+        <tr>
+            <td align="center"><b>BackEnd</b></td>
+            <td>
+                <img src="https://img.shields.io/badge/javascript-F7DF1E?logo=javascript&logoColor=white"/>
+                <img src="https://img.shields.io/badge/nodedotjs-5FA04E?logo=nodedotjs&logoColor=white"/> 
+                <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white"/>
+                <img src="https://img.shields.io/badge/expressJs-000000?logo=express&logoColor=white"/>		
+            </td>
+         </tr>
+         <tr>
+             <td align="center"><b>Infra</b></td>
+             <td>
+                 <img src="https://img.shields.io/badge/Github_Action-2088FF?logo=githubactions&logoColor=white"/> 
+                 <img src="https://img.shields.io/badge/amazonec2-FF9900?logo=amazonec2&logoColor=white"/> 
+                 <img src="https://img.shields.io/badge/amazons3-569A31?logo=amazons3&logoColor=white"/> 
+                 <img src="https://img.shields.io/badge/amazonroute53-8C4FFF?logo=amazonroute53&logoColor=white"/>
+             </td>
+        </tr>
+        <tr>
+            <td align="center"><b>Collaboration</b></td>
+            <td>
+              <img src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white"/>
+              <img src="https://img.shields.io/badge/Notion-000000?logo=Notion"> 
+              <img src="https://img.shields.io/badge/Figma-F24E1E?logo=Figma&logoColor=ffffff"> 
+              <img src="https://img.shields.io/badge/Discord-5865F2?logo=Discord&logoColor=ffffff">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<br/>
+
 ## 아키텍쳐
 
 ![광고지구아키텍쳐](https://user-images.githubusercontent.com/105091138/195766564-08299428-e979-49f0-97c8-7a130a7b106c.jpeg)
 
-## 기술 스택
+<br/>
 
-- React, TypeScript
-- React-Query, Recoil, Axios
-- Sass
+## Git Flow 
+![gitFlow](https://github.com/whl5105/Team-adEarth-admin-v2.0/assets/73993670/5c73de93-3f75-4bae-b5ea-1e467580b15a)
 
-## 기타
+- master : 제품으로 출시될 수 있는 브랜치
+- hotfix : 출시 버전에서 발생한 버그를 수정 하는 브랜치
+- develop : 다음 출시 버전을 개발하는 브랜치
+- feature : 기능을 개발하는 브랜치
+- refactoring develop  : 코드 리팩토링 작업을 수행하는 브랜치
+- refactoring feature  : 리팩토링 과정에서 해당 기능에 수행하는 브랜치  
 
-- [🤝 Convention](https://github.com/ad-earth/client-v2.0/issues/73)
-- [🧩 IA](https://www.figma.com/file/PhU5ITHbMHReiIQBqjD4IA/%EA%B4%91%EA%B3%A0%EC%A7%80%EA%B5%AC-%EC%9C%A0%EC%A0%80%ED%94%8C%EB%A1%9C%EC%9A%B0%EC%B0%A8%ED%8A%B8%2F-%EC%A0%95%EB%B3%B4%EA%B5%AC%EC%A1%B0?node-id=0-1)
-- [👩🏻‍💻 User Flow](https://www.figma.com/file/PhU5ITHbMHReiIQBqjD4IA/%EA%B4%91%EA%B3%A0%EC%A7%80%EA%B5%AC-%EC%9C%A0%EC%A0%80%ED%94%8C%EB%A1%9C%EC%9A%B0%EC%B0%A8%ED%8A%B8%2F-%EC%A0%95%EB%B3%B4%EA%B5%AC%EC%A1%B0?node-id=2-207)
-- [📄 API](https://documenter.getpostman.com/view/18707207/2s7Z7ZnZDy)
+<br/>
+
+## Development Setup
+
+```bash
+
+# Move to your workspace
+cd your-workspace
+
+# Clone this repository:
+$ https://github.com/whl5105/Team-adEarth-admin-v2.0.git
+
+# Enter in directory:
+$ Team-adEarth-admin-v2.0
+
+# Install dependencies:
+$ yarn install
+
+# Run the development server:
+$ yarn start
+
+# Open the project in your browser
+$ http://localhost:3000
+```
+
+<br/>
+
+## Team Members
+  <table>
+  <tr>
+      <td align="center">FrontEnd</td>
+      <td align="center">FrontEnd</td>
+      <td align="center">FrontEnd</td>
+      <td align="center">BackEnd</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://github.com/whl5105.png" width="160"></td>
+      <td align="center"><img src="https://github.com/damiiya.png" width="160"></td>
+      <td align="center"><img src="https://github.com/sol-pine.png" width="160"></td>
+      <td align="center"><img src="https://github.com/huitopia.png" width="160"></td>
+    </tr>
+    <tr>
+      <td align="center">최수인</td>
+      <td align="center">이담</td>
+      <td align="center">해솔</td>
+      <td align="center">김다희</td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/whl5105" target="_blank">@whl5105</a></td>
+      <td align="center"><a href="https://github.com/damiiya" target="_blank" width="160">@damiiya</a></td>
+      <td align="center"><a href="https://github.com/sol-pine" target="_blank">@sol-pine</a></td>
+      <td align="center"><a href="https://github.com/huitopia" target="_blank">@huitopia</a></td>
+    </tr>
+  </table>
